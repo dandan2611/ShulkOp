@@ -1,0 +1,12 @@
+name: ShulkOp
+version: '${version}'
+main: fr.codinbox.shulkop.ShulkOpPlugin
+api-version: 1.19
+authors: [ dandan2611 ]
+load: POSTWORLD
+
+commands:
+    shulkop:
+        description: "ShulkOp plugin management"
+        usage: "/shulkop"
+        permission: shulkop.manage
